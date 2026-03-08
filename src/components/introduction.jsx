@@ -41,10 +41,10 @@ export default function Introduction(){
             <div className="container w-25">
                 <div className="row">
                     <div className="col-md-6 projects">
-                        <a href="#" className="p-3 rounded-pill">View Projects</a>
+                        <a href="#projects" className="p-3 rounded-pill">View Projects</a>
                     </div>
                     <div className="col-md-6 reach-me">
-                        <a href="#" className="p-3 rounded-pill">Get in touch</a>
+                        <a href="mailto:jacksonomari2230@gmail.com" target="_blank" className="p-3 rounded-pill">Get in touch</a>
                     </div>
                 </div>
             </div>
