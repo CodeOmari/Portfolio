@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.skills-section{
+    margin-top: 90px;
+    padding: 100px;
+}
+.skills-section h3{
+    color: #F6AD55;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: 5px;
+}
+.skills-section h5{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+.technology button{
+    margin: 8px;
+}
+.tech-box{
+    font-family: "DM Sans", sans-serif;
+    background-color: #fff;
+    border: 1px  solid #ccc;
+    width: 120px;
+    height: 60px;
+    transition: all 0.15s ease;
+}
+.tech-box:hover{
+    border: 1px solid #0080FF;
+}
