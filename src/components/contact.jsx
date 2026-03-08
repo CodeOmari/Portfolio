@@ -1,8 +1,8 @@
 import "../styles/contact.css";
 import Email from "../assets/email.svg";
-import Github from "../styles/github.svg";
-import Linkedin from "../styles/linkedin.svg";
-import Gmail from "../styles/gmail.svg";
+import Github from "../assets/github.svg";
+import Linkedin from "../assets/linkedin.svg";
+import Gmail from "../assets/gmail.svg";
 export default function Contact(){
     return(
         <div className="container-fluid contact-section bg-light d-flex flex-column justify-content-center align-items-center" id="contact">
