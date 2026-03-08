@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-section{
+    margin-top: 90px;
+    padding: 100px;
+}
+.contact-section h3{
+    color: #F6AD55;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: 5px;
+}
+.contact-section h5{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+.work-together{
+    width: 550px;
+    text-align: center;
+    color: #606972;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+.mail a{
+    text-decoration: none;
+    background-color: #0080FF;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    transition: opacity 0.15s ease;
+}
+.mail a:hover{
+    opacity: 0.8;
+}
+.social-media{
+    width: 240px;
+}
