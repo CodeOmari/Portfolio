@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #606972;
+    letter-spacing: 5px;
+}
+.intro-name h1{
+    font-family: "DM Serif Text", serif;
+    font-weight: 500;
+    font-size: 3em;
+}
+#role h5{
+    color: #0080FF;
+}
+.description{
+    width: 550px;
+    text-align: center;
+    color: #606972;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+.projects a{
+    text-decoration: none;
+    background-color: #0080FF;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    transition: opacity 0.15s ease;
+}
+.projects a:hover{
+    opacity: 0.8;
+}
+.reach-me a{
+    text-decoration: none;
+    border: 1px solid #ccc;
+    color: #000;
+    font-family: "DM Sans", sans-serif;
+    transition: all 0.15s ease;
+}
+.reach-me a:hover{
+    border: 1px solid #0080FF;
+    color: #0080FF;
+}
