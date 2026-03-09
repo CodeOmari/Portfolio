@@ -13,7 +13,7 @@ export default function Projects() {
                 <div className="project-name">
                     <a href="https://omari14.pythonanywhere.com/" target='_blank'>NovaCare</a>
                 </div>
-                <div className="project-description w-50">
+                <div className="project-description">
                     <p>
                         A hospital management system built with HTML, CSS, Bootstrap, 
                         and Django, using MySQL as the database to manage hospital services 
@@ -32,7 +32,7 @@ export default function Projects() {
                 <div className="project-name">
                     <a href="https://codeomari.pythonanywhere.com/" target='_blank'>Eventify</a>
                 </div>
-                <div className="project-description w-50">
+                <div className="project-description">
                     <p>
                         A hospital management system built with HTML, CSS, Bootstrap, 
                         and Django, using MySQL as the database to manage hospital services 

@@ -29,6 +29,9 @@
 .project-name a:hover{
     color: #0080FF;
 }
+.project-description{
+    max-width: 500px;
+}
 .project-description p{
     color: #606972;
     font-family: "DM Sans", sans-serif;
