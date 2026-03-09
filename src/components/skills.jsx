@@ -7,7 +7,7 @@ export default function Skills() {
                 Technologies I work with
             </h5>
             <div className="container technology">
-                <div className="row">
+                <div className="row g-3">
                     <div className="col-6 col-sm-4 col-md-3">
                         <button className='rounded tech-box'>HTML</button>
                     </div>
