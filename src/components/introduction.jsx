@@ -40,12 +40,12 @@ export default function Introduction(){
 
             <div className="container buttons-section d-flex align-items-center justify-content-center">
                 <div className="row">
-                    <div className="col-6 col-sm-6 projects">
+                    <div className="col-sm-6 projects">
                         <a href="#projects" className="p-3 rounded-pill text-center">
                             Projects
                         </a>
                     </div>
-                    <div className="col-6 col-sm-6 reach-me">
+                    <div className="col-sm-6 reach-me">
                         <a href="mailto:jacksonomari2230@gmail.com" target="_blank" className="p-3 rounded-pill text-center">
                             Contact
                         </a>
