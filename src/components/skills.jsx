@@ -6,7 +6,7 @@ export default function Skills() {
             <h5 className='mb-4'>
                 Technologies I work with
             </h5>
-            <div className="container technology">
+            <div className="container technology gap-2">
                 <div className="row g-3">
                     <div className="col-6 col-sm-4 col-md-3">
                         <button className='rounded tech-box'>HTML</button>
