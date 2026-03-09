@@ -38,19 +38,14 @@ export default function Introduction(){
                 </p>
             </div>
 
-            <div className="container buttons-section d-flex align-items-center justify-content-center">
-                <div className="row">
-                    <div className="col-sm-6 projects">
-                        <a href="#projects" className="p-3 rounded-pill text-center">
-                            Projects
-                        </a>
-                    </div>
-                    <div className="col-sm-6 reach-me">
-                        <a href="mailto:jacksonomari2230@gmail.com" target="_blank" className="p-3 rounded-pill text-center">
-                            Contact
-                        </a>
-                    </div>
-                </div>
+            <div className="buttons-section d-flex align-items-center gap-4 justify-content-center">
+                <a href="#projects" className="projects p-3 rounded-pill text-center">
+                        View Projects
+                </a>
+                <a href="mailto:jacksonomari2230@gmail.com" target="_blank" className="reach-me p-3 rounded-pill text-center">
+                        Get in Touch
+                </a>        
+                
             </div>
         </div>
     )

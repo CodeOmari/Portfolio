@@ -26,24 +26,24 @@
     font-size: 1.15rem;
     font-weight: 400;
 }
-.projects a{
+.projects{
     text-decoration: none;
     background-color: #0080FF;
     color: #fff;
     font-family: "DM Sans", sans-serif;
     transition: opacity 0.15s ease;
 }
-.projects a:hover{
+.projects:hover{
     opacity: 0.8;
 }
-.reach-me a{
+.reach-me{
     text-decoration: none;
     border: 1px solid #ccc;
     color: #000;
     font-family: "DM Sans", sans-serif;
     transition: all 0.15s ease;
 }
-.reach-me a:hover{
+.reach-me:hover{
     border: 1px solid #0080FF;
     color: #0080FF;
 }
