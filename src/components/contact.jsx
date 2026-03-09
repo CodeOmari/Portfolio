@@ -25,17 +25,17 @@ export default function Contact(){
             </div>
             <div className="container social-media">
                 <div className="row">
-                    <div className="col-sm-4">
+                    <div className="col-12 col-sm-4">
                         <a href="https://github.com/CodeOmari" target="_blank">
                             <img src={Github} alt="github logo" className="icon" />
                         </a>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-12 col-sm-4">
                         <a href="https://www.linkedin.com/in/jackson-omari/" target="_blank">
                             <img src={Linkedin} alt="linkedin logo" className="icon" />
                         </a>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-12 col-sm-4">
                         <a href="mailto:jacksonomari2230@gmail.com" target="_blank">
                             <img src={Gmail} alt="gmail logo" className="icon" />
                         </a>
