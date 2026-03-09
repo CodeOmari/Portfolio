@@ -8,7 +8,7 @@ export default function About(){
                 I'm a Computer Science student and passionate full-stack developer, dedicated to 
                 turning ideas into functional, user-friendly web applications. <br />
                 <br />
-                My journey began with HTML & CSS, evolved through JavaScript and React on the frontend, and expanded into <br /> Python 
+                My journey began with HTML & CSS, evolved through JavaScript and React on the frontend, and expanded into Python 
                 and Django on the backend. I thrive on building projects that solve real problems, exploring 
                 new technologies, and contributing to the open-source community. <br />
                 <br />
