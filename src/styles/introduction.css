@@ -19,7 +19,7 @@
     color: #0080FF;
 }
 .description{
-    width: 550px;
+    max-width: 500px;
     text-align: center;
     color: #606972;
     font-family: "DM Sans", sans-serif;
