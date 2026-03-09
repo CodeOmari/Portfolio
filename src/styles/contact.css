@@ -38,12 +38,6 @@
 .mail a:hover{
     opacity: 0.8;
 }
-.social-media{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-}
 .icon{
     width: 40px;
 }
