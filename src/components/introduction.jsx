@@ -33,8 +33,8 @@ export default function Introduction(){
 
             <div className="container description mb-5">
                 <p>
-                    A Computer Science student passionate about building elegant, 
-                    performant web applications from frontend to backend.
+                    A Computer Science student passionate <br /> about building elegant, 
+                    performant web applications <br /> from frontend to backend.
                 </p>
             </div>
 
