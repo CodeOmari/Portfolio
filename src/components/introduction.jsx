@@ -33,18 +33,22 @@ export default function Introduction(){
 
             <div className="container description mb-5">
                 <p>
-                    A Computer Science student passionate <br /> about building elegant, 
-                    performant web applications <br /> from frontend to backend.
+                    A Computer Science student passionate about building elegant, 
+                    performant web applications from frontend to backend.
                 </p>
             </div>
 
-            <div className="container w-25">
+            <div className="container buttons-section d-flex align-items-center justify-content-center">
                 <div className="row">
-                    <div className="col-sm-6 projects">
-                        <a href="#projects" className="p-3 rounded-pill">View Projects</a>
+                    <div className="col-12 col-sm-6 projects">
+                        <a href="#projects" className="p-3 rounded-pill text-center">
+                            Projects
+                        </a>
                     </div>
-                    <div className="col-sm-6 reach-me">
-                        <a href="mailto:jacksonomari2230@gmail.com" target="_blank" className="p-3 rounded-pill">Get in touch</a>
+                    <div className="col-12 col-sm-6 reach-me">
+                        <a href="mailto:jacksonomari2230@gmail.com" target="_blank" className="p-3 rounded-pill text-center">
+                            Contact
+                        </a>
                     </div>
                 </div>
             </div>
