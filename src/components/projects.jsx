@@ -68,7 +68,7 @@ export default function Projects() {
                 </div>
                 <div className="project-description">
                     <p>
-                        events management platform that allows users to discover, register, and 
+                        A events management platform that allows users to discover, register, and 
                         manage educational, tech, business, and art events, as well as workshops. 
                         Users can explore both free and paid events, whether physical or virtual, all 
                         in one place.
