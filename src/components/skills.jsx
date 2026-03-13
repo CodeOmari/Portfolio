@@ -33,7 +33,7 @@ export default function Skills() {
                         <button  className='rounded tech-box'>REST APIs</button>
                     </div>
                     <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>SQL</button>
+                        <button  className='rounded tech-box'>MySQL</button>
                     </div>
                     <div className="col-6 col-sm-4 col-md-3">
                         <button  className='rounded tech-box'>Git</button>
