@@ -11,6 +11,23 @@ export default function Projects() {
             </div>
             <div className="container project-container p-4">
                 <div className="project-name">
+                    <a href="https://note-nest-bird.vercel.app/" target='_blank'>NoteNest</a>
+                </div>
+                <div className="project-description">
+                    <p>
+                        A simple notes app built with React, Bootstrap, Django Rest Framework, and MySQL 
+                        for creating, organizing, and managing personal notes.
+                    </p>
+                    <div className="lang-box d-flex">
+                        <button className='rounded-pill language'>React</button>
+                        <button className='rounded-pill language'>Bootstrap</button>
+                        <button className='rounded-pill language'>REST APIs</button>
+                        <button className='rounded-pill language'>MySQL</button>
+                    </div>
+                </div>
+            </div>
+            <div className="container project-container p-4">
+                <div className="project-name">
                     <a href="https://omari14.pythonanywhere.com/" target='_blank'>NovaCare</a>
                 </div>
                 <div className="project-description">
