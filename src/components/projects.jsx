@@ -30,6 +30,23 @@ export default function Projects() {
             </div>
             <div className="container project-container p-4">
                 <div className="project-name">
+                    <a href="https://talkio-gray.vercel.app/" target='_blank'>Talkio</a>
+                </div>
+                <div className="project-description">
+                    <p>
+                        A lightweight messaging app built with React, Bootstrap, Django Rest Framework, and MySQL 
+                        designed to make connecting and chatting with people simple, fast, and seamless.
+                    </p>
+                    <div className="lang-box d-flex">
+                        <button className='rounded-pill language'>React</button>
+                        <button className='rounded-pill language'>Bootstrap</button>
+                        <button className='rounded-pill language'>REST APIs</button>
+                        <button className='rounded-pill language'>MySQL</button>
+                    </div>
+                </div>
+            </div>
+            <div className="container project-container p-4">
+                <div className="project-name">
                     <a href="https://codeomari.pythonanywhere.com/" target='_blank'>Eventify</a>
                 </div>
                 <div className="project-description">
