@@ -68,9 +68,10 @@ export default function Projects() {
                 </div>
                 <div className="project-description">
                     <p>
-                        A hospital management system built with HTML, CSS, Bootstrap, 
-                        and Django, using MySQL as the database to manage hospital services 
-                        and patient information efficiently.
+                        events management platform that allows users to discover, register, and 
+                        manage educational, tech, business, and art events, as well as workshops. 
+                        Users can explore both free and paid events, whether physical or virtual, all 
+                        in one place.
                     </p>
                     <div className="lang-box d-flex">
                         <button className='rounded-pill language'>HTML</button>
