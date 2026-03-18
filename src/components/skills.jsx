@@ -15,7 +15,7 @@ export default function Skills() {
                         <button  className='rounded tech-box'>CSS</button>
                     </div>
                     <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>BootStrap</button>
+                        <button  className='rounded tech-box'>Bootstrap</button>
                     </div>
                     <div className="col-6 col-sm-4 col-md-3">
                         <button  className='rounded tech-box'>JavaScript</button>
