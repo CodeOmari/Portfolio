@@ -1,4 +1,5 @@
 import '../styles/skills.css';
+import skillData from "../skills";
 export default function Skills() {
     return(
         <div className="container-fluid skills-section bg-light" id='skills'>
@@ -8,42 +9,11 @@ export default function Skills() {
             </h5>
             <div className="container technology">
                 <div className="row g-3">
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <button className='rounded tech-box'>HTML</button>
-                    </div>
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>CSS</button>
-                    </div>
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>Bootstrap</button>
-                    </div>
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>JavaScript</button>
-                    </div>
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>React</button>
-                    </div>
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>Python</button>
-                    </div>
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>Django</button>
-                    </div>
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>REST APIs</button>
-                    </div>
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>MySQL</button>
-                    </div>
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>Git</button>
-                    </div>
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>Github</button>
-                    </div>
-                    <div className="col-6 col-sm-4 col-md-3">
-                        <button  className='rounded tech-box'>Postman</button>
-                    </div>
+                    {skillData.map((skill) => (
+                        <div className="col-6 col-sm-4 col-md-3">
+                            <button className='rounded tech-box'>{skill.name}</button>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
