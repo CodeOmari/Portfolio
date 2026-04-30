@@ -1,5 +1,6 @@
 import '../styles/skills.css';
 import skillData from "../skills";
+
 export default function Skills() {
     return(
         <div className="container-fluid skills-section bg-light" id='skills'>
