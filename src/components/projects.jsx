@@ -13,7 +13,7 @@ export default function Projects(){
             {projectData.map((project) => (
                 <div className="container project-container p-4">
                     <div className="project-name">
-                        <a href={project.link} target='_blank'>{project.name}</a>
+                        <a href={project.link} target='_blank'>{project.title}</a>
                     </div>
                     <div className="project-description">
                         <p>{project.description}</p>
