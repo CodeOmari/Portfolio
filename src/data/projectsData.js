@@ -39,6 +39,16 @@ const projectsData = [
     type: "Project",
     href: "https://omari14.pythonanywhere.com/",
   },
+  {
+    id: 5,
+    number: "05",
+    tag: "React",
+    title: "Mediator Chandah",
+    description:
+      "Designed and developed a professional, responsive website for a mediation service provider, showcasing services, credentials, and contact information with a modern and user-friendly interface.",
+    type: "Project",
+    href: "https://www.cpmchandah.co.ke/",
+  },
 ];
 
 export default projectsData;
