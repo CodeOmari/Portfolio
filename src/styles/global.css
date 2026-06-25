@@ -1,0 +1,18 @@
+.pm-section {
+  padding: 5rem clamp(1.5rem, 5vw, 6rem);
+}
+
+.pm-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.pm-section-title {
+  font-size: clamp(1.8rem, 3vw, 2.75rem);
+  font-weight: 900;
+  letter-spacing: -1px;
+  margin-bottom: 2.5rem;
+}

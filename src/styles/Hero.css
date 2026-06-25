@@ -1,0 +1,133 @@
+.pm-hero {
+  background: var(--bg-hero);
+  min-height: calc(100vh - 64px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 4rem clamp(1.5rem, 5vw, 6rem);
+  gap: 3rem;
+}
+
+.pm-available-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #fff;
+  border: 1px solid #d1e9f5;
+  border-radius: 999px;
+  padding: 0.35rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.pm-available-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+}
+
+.pm-hero-title {
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -2px;
+}
+
+.pm-hero-title .accent {
+  color: var(--accent);
+}
+
+.pm-hero-sub {
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  color: var(--text-secondary);
+  max-width: 420px;
+  line-height: 1.65;
+}
+
+.pm-hero-ctas {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.pm-btn-primary {
+  background: var(--dark);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.75rem 1.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.pm-btn-primary:hover {
+  opacity: 0.8;
+}
+
+.pm-btn-secondary {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1.5px solid #d1d5db;
+  border-radius: 999px;
+  padding: 0.75rem 1.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.pm-btn-secondary:hover {
+  border-color: var(--text-primary);
+}
+
+.pm-hero-img-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pm-hero-img {
+  width: 100%;
+  max-width: 420px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+}
+
+.pm-hero-img-placeholder {
+  width: 100%;
+  max-width: 420px;
+  height: 480px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, #c9e8f7 0%, #a8d5ee 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+}
+
+@media (max-width: 900px) {
+  .pm-hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .pm-hero-img-wrap {
+    justify-content: center;
+  }
+
+  .pm-hero-sub {
+    margin: 1.25rem auto 0;
+  }
+
+  .pm-hero-ctas {
+    justify-content: center;
+  }
+}

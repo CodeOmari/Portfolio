@@ -1,0 +1,64 @@
+.pm-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0 clamp(1.5rem, 5vw, 4rem);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pm-logo {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: var(--text-primary);
+}
+
+.pm-logo span {
+  color: var(--accent);
+}
+
+.pm-nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.pm-nav-links a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.pm-nav-links a:hover {
+  color: var(--text-primary);
+}
+
+.pm-hire-btn {
+  background: var(--dark);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.55rem 1.4rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.pm-hire-btn:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  .pm-nav-links {
+    display: none;
+  }
+}
