@@ -8,9 +8,9 @@ export default function Contact() {
       <p className="pm-eyebrow">04 — CONTACT</p>
       <h2 className="pm-section-title">Let's create something.</h2>
       <p className="pm-contact-sub">
-        Have a project in mind, a campaign to launch, or a story to tell?
+        Have a project in mind or an opportunity to discuss?
         <br />
-        Reach out on any of the channels below.
+        Let's connect and build something amazing together.
       </p>
 
       <div className="pm-contact-cards">
