@@ -1,6 +1,6 @@
 import "../styles/About.css";
 import "../styles/global.css";
-
+import {Infinity} from "lucide-react";
 export default function About() {
   return (
     <section className="pm-section pm-about" id="about">
@@ -47,7 +47,9 @@ export default function About() {
           </div>
 
           <div className="pm-stat">
-            <div className="pm-stat-num">∞</div>
+            <div className="pm-stat-num">
+              <Infinity />
+            </div>
             <div className="pm-stat-label">Learning Journey</div>
           </div>
         </div>
