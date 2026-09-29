@@ -17,7 +17,14 @@ export default function Contact() {
         {contactData.map((item) => (
           <a href={item.href} style={{ textDecoration: "none" }} key={item.id}>
             <div className="pm-contact-card">
-              <div className="pm-contact-icon">{item.icon}</div>
+              <div className="pm-contact-icon">
+                <img
+                    src={item.icon}
+                    alt={item.type}
+                    width="20"
+                    height="20"
+                />
+              </div>
               <div className="pm-contact-type">{item.type}</div>
               <div className="pm-contact-value">{item.value}</div>
             </div>
