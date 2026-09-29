@@ -1,6 +1,7 @@
 import skillsData from "../data/skillsData";
 import "../styles/Skills.css";
 import "../styles/global.css";
+import { ArrowRight } from "lucide-react";
 
 export default function Skills() {
   return (
@@ -15,7 +16,9 @@ export default function Skills() {
               <div className="pm-skill-name">{skill.name}</div>
               <div className="pm-skill-cat">{skill.category}</div>
             </div>
-            <div className="pm-skill-arrow">→</div>
+            <div className="pm-skill-arrow">
+              <ArrowRight size={18} />
+            </div>
           </div>
         ))}
       </div>
