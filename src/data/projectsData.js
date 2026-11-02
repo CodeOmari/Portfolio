@@ -2,22 +2,22 @@ const projectsData = [
   {
     id: 1,
     number: "01",
-    tag: "React & Rest APIs",
-    title: "NoteNest",
-    description:
-      "A simple notes app built with React, Bootstrap, Django Rest Framework, and MySQL for creating, organizing, and managing personal notes.",
-    type: "Project",
-    href: "https://note-nest-bird.vercel.app/",
-  },
-  {
-    id: 2,
-    number: "02",
     tag: "Django",
     title: "Eventify",
     description:
       "A events management platform that allows users to discover, register, and manage educational, tech, business, and art events, as well as workshops. Users can explore both free and paid events, whether physical or virtual, all in one place.",
     type: "Project",
     href: "https://codeomari.pythonanywhere.com/",
+  },
+  {
+    id: 2,
+    number: "02",
+    tag: "React & Rest APIs",
+    title: "NoteNest",
+    description:
+      "A simple notes app built with React, Bootstrap, Django Rest Framework, and MySQL for creating, organizing, and managing personal notes.",
+    type: "Project",
+    href: "https://note-nest-bird.vercel.app/",
   },
   {
     id: 3,
