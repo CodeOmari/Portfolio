@@ -25,7 +25,7 @@ const projectsData = [
     tag: "React & Rest APIs",
     title: "NoteNest",
     description:
-      "A simple notes app built with React, Bootstrap, Django Rest Framework, and MySQL for creating, organizing, and managing personal notes.",
+      "NoteNest is a full-stack note-taking application built with React, Bootstrap, Django REST Framework, and MySQL. It allows users to create, organize, edit, and manage personal notes through a rich-text editor. Features include secure JWT authentication, password reset via email, and scheduled email reminders to help users stay on top of important notes.",
     type: "Project",
     href: "https://note-nest-bird.vercel.app/",
   },
